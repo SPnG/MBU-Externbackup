@@ -17,8 +17,7 @@ TAPE=/dev/sdd            # VORSICHT, es erfolgt keine Pruefung!
 
 # #############################################################################
 
-# Git Test :-)
-# lalalalalalalaalalalala
+
 
 
 
