@@ -39,12 +39,16 @@ fi
 JETZT=`date +%c` && echo $JETZT >>$LOG
 echo ""
 echo ""
-echo "DV Datensicherung (ohne pat_nr)" | tee -a $LOG
-echo "-------------------------------"
+echo "DV Datensicherung (ohne Dokumentenablage!)" | tee -a $LOG
+echo "------------------------------------------"
 
 if [ -e $LOG ]; then
    rm -f $LOG
 fi
+
+echo ""
+echo "Bitte Medium einlegen und ENTER druecken... (Abbruch mit STRG-C)"
+read dummy
 
 # ISAM anhalten
 JETZT=`date +%c` && echo $JETZT >>$LOG
